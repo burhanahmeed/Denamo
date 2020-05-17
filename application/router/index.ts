@@ -12,3 +12,5 @@ route.get('/', (req: Request, res: Response) => {
         text: 'Hello Welcome to Denamo - A Deno web boilerplate'
     })
 })
+
+export default route;

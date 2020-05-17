@@ -1,1 +1,3 @@
-# Denamo-deno-web-boilerplate
+# DENAMO - A Deno Boilerplate
+
+![denamo](public/denamo.jpg)
