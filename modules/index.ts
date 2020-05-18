@@ -1,4 +1,4 @@
-import { 
+export { 
     App, 
     Request, 
     Response, 
@@ -7,13 +7,3 @@ import {
     parser,
     staticServe
 } from "https://deno.land/x/attain/mod.ts";
-
-export {
-    App,
-    Request,
-    Response,
-    Router,
-    logger,
-    parser,
-    staticServe
-}
