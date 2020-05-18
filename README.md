@@ -1,6 +1,12 @@
 # DENAMO - A Deno Web Boilerplate
 
-![denamo](public/denamo.jpg)
+<div align='center'>
+
+[![denamo](public/denamo.jpg)](.)
+
+![release](https://badgen.net/github/release/burhanahmeed/denamo)
+
+</div>
 
 Still got a problems in parsing query params, I will submit an issue later to [Attain](https://deno.land/x/attain)
 
