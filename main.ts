@@ -3,7 +3,7 @@ import {
     logger,
     parser,
     staticServe
-} from "./modules/index.ts";
+} from "./modules/deps.ts";
 import Application from './application/entry.ts';
 
 const app = new App();

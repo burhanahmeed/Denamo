@@ -2,7 +2,7 @@ import {
     Router, 
     Request, 
     Response 
-} from '../../modules/index.ts';
+} from '../../modules/deps.ts';
 import { 
     exampleMiddleware
  } from "../middleware/index.ts";

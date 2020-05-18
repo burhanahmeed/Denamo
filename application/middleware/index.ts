@@ -1,7 +1,7 @@
 import { 
     Request,
     Response
- } from "../../modules/index.ts";
+ } from "../../modules/deps.ts";
 
 /**
  * This is the example of Attain Middleware

@@ -2,7 +2,7 @@ import api from './router/index.ts';
 import {
     Response,
     Request
-} from '../modules/index.ts';
+} from '../modules/deps.ts';
 
 const app = (app: any) => {
     app.use('/api', api);
