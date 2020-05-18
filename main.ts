@@ -14,7 +14,7 @@ app.use(logger);
 app.use(parser);
 // Serve static files
 // This path must be started from your command line path.
-app.use(staticServe({ path: "./public" }));
+app.use(staticServe("./public", {maxAge: 1000}));
 const env = Deno.env;
 
 /**

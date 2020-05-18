@@ -8,12 +8,13 @@ import {
  */
 
  function exampleMiddleware (req: Request, res: Response):any {
-    console.log(req.query.tada);
-    console.log(req.params);
-    if (req.query.tada) {
+    // console.log(!req.query);
+    // console.log('query params', req.query);
+    // console.log(req.params);
+    if (!req.query) {
         return res.status(200).send({
             status: 500,
-            response: 'URL is restricted to use Query params'
+            response: 'Cant pass without query params'
         })
     }
  }

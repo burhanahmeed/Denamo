@@ -17,7 +17,8 @@
     ],
     "deno_args":[
         "--allow-net",
-        "--allow-env"
+        "--allow-env",
+        "--allow-read"
     ],
     "execute": {
         ".js": ["deno", "run"],
