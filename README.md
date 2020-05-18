@@ -2,7 +2,7 @@
 
 <div align='center'>
 
-[![denamo](public/denamo.jpg)](.)
+[![denamo](https://i.ibb.co/9nFrDtq/denamo.jpg)](.)
 
 </div>
 
