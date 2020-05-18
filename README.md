@@ -4,9 +4,11 @@
 
 [![denamo](public/denamo.jpg)](.)
 
-![release](https://badgen.net/github/release/burhanahmeed/denamo)
-
 </div>
+
+![release](https://badgen.net/github/release/burhanahmeed/denamo)
+![tags](https://badgen.net/github/tags/burhanahmeed/denamo)
+![deno](https://badgen.net/badge/Deno/Latest/green)
 
 Still got a problems in parsing query params, I will submit an issue later to [Attain](https://deno.land/x/attain)
 
