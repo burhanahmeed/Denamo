@@ -3,7 +3,8 @@ import { database } from "./db/index.ts";
 const databaseList: {[key: string]: Array<Object>} = {
     mongodb: [
         {
-            url: 'mongodb://127.0.0.1/somedb'
+            url: 'mongodb://127.0.0.1/',
+            database: 'Testing'
         }
     ]
 }

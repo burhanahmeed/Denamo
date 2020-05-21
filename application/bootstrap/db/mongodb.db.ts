@@ -1,12 +1,11 @@
 import { Database } from "../database.ts";
-import { MongoClient, init } from "../../../modules/deps.ts";
-
-await init();
+import { MongoClient } from "../../../modules/deps.ts";
 
 const mongoConnect = (config: {[key: string]: string}) => {
     const client = new MongoClient();
     client.connectWithUri(config.url);
-    client.database('Testing');
+    let db = client.database(config.database);
+    return db;
 }
 
 let Connection = new Database(mongoConnect, 'mongodb');
