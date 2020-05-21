@@ -9,4 +9,9 @@ const mongoConnect = (config: {[key: string]: string}) => {
     client.database('Testing');
 }
 
-let con = new Database(mongoConnect, 'mongodb')
+let Connection = new Database(mongoConnect, 'mongodb');
+
+export {
+    Connection, 
+    mongoConnect
+}

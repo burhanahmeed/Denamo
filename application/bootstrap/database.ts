@@ -1,7 +1,4 @@
-import {
-    fromFileUrl
-} from '../../modules/deps.ts'
-
+import { database } from "./db/index.ts";
 
 const databaseList: {[key: string]: Array<Object>} = {
     mongodb: [
@@ -21,7 +18,7 @@ class Database {
         this.dbname = dbname;
     }
 
-    getConnection (number: number) {
+    getConnection (number?: number) {
         if (!number) {
             number = 0;
         }
@@ -45,7 +42,7 @@ const connectAll = () => {
     for (const dbname in databaseList) {
         conn[dbname] = []
 		for (var i = 0; i < databaseList[dbname].length; i++) {
-            conn[dbname].push(fromFileUrl(`./database/${dbname}.settings.ts`)).getConnection(i);
+            conn[dbname].push(database(dbname, i));
 		}
     }
     return conn;
