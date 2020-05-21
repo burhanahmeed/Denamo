@@ -2,9 +2,9 @@
     "files": [
         "main.ts"
     ],
-    "quiet": false,
+    "quiet": true,
     "debug": true,
-    "fullscreen": true,
+    "fullscreen": false,
     "extensions": [
         ".js",
         ".ts",
@@ -18,7 +18,10 @@
     "deno_args":[
         "--allow-net",
         "--allow-env",
-        "--allow-read"
+        "--allow-read",
+        "--allow-write",
+        "--allow-plugin",
+        "--unstable"
     ],
     "execute": {
         ".js": ["deno", "run"],
@@ -26,5 +29,5 @@
         ".py": ["python"]
     },
     "fmt": false,
-    "test": true
+    "test": false
 }
