@@ -1,10 +1,11 @@
 import { database } from "./db/index.ts";
+import { DbSettings, Connection } from './database.interface.ts';
 
-const databaseList: {[key: string]: Array<Object>} = {
+const databaseList: DbSettings = {
     mongodb: [
         {
-            url: 'mongodb://127.0.0.1/',
-            database: 'Testing'
+            url: Deno.env.get('MONGO_PRIMARY_URL') || 'mongodb://127.0.0.1/',
+            database: Deno.env.get('MONGO_PRIMARY_DATABASE') || 'Testing'
         }
     ]
 }
@@ -39,7 +40,7 @@ class Database {
 }
 
 const connectAll = () => {
-    let conn: {[key: string]: any} = {};
+    let conn: Connection = {};
     for (const dbname in databaseList) {
         conn[dbname] = []
 		for (var i = 0; i < databaseList[dbname].length; i++) {

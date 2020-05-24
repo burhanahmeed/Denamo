@@ -12,7 +12,7 @@ import {
 
 const route = new Router();
 
-route.get('/', (req: Request, res: Response) => {
+route.get('/', exampleMiddleware, (req: Request, res: Response) => {
     res.send({
         status: 200,
         text: 'Hello Welcome to Denamo - A Deno web boilerplate'
@@ -27,7 +27,7 @@ route.get('/users', async (req: Request, res: Response) => {
     });
 });
 
-route.get('/query', exampleMiddleware, (req: Request, res: Response) => {
+route.get('/query', (req: Request, res: Response) => {
     res.send({
         status: 200,
         text: 'Middleware query params passed'
