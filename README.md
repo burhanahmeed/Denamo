@@ -20,7 +20,7 @@
 ---
 ## About
 Denamo is just a simple web boilerplate / web starter to create your first Deno REST API. It's built on top of [Attain web framework](https://deno.land/x/attain) and been integrated with MongoDB.
-As it written in 24 May 2020, the library is still very unstable and please submit an issue if you find some wierd behaviors or some bugs.
+As it written in 24 May 2020, the library is still very unstable and please submit an issue if you find some weird behaviors or some bugs.
 
 ---
 ## Installation & Setup
