@@ -66,7 +66,7 @@ Too long though?
 ```
 denon start
 ```
-- If you wanna look at the denon setup file, it is on `.denon` file.
+- If you wanna look at the denon setup file, it is on `denon.json` file.
 
 
 
