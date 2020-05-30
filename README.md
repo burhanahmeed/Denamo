@@ -17,12 +17,18 @@
 - Database integration (MySQL, Firebase, Redis, etc)
 - Still waiting on Deno Frontend update tho
 - Add dynamic rendering (Waiting someone make a deno headless browser module)
----
+
+#### Related links
+- [Attain](https://deno.land/x/attain) - A middleware web framework for Deno
+- [MongoDB Driver](https://deno.land/x/mongo) - Unofficial driver
+- [Denon](https://deno.land/x/denon) - Nodemon for Deno
+- [Deno](https://deno.land)
+
 ## About
 Denamo is just a simple web boilerplate / web starter to create your first Deno REST API. It's built on top of [Attain web framework](https://deno.land/x/attain) and been integrated with MongoDB.
 As it written in 24 May 2020, the library is still very unstable and please submit an issue if you find some weird behaviors or some bugs.
 
----
+
 ## Installation & Setup
 For the first step before you get started with this project, make sure you have Deno installed on your machine.
 
@@ -63,11 +69,11 @@ denon
 - If you wanna look at the denon setup file, it is on `.denon` file.
 
 
----
+
 ## Contribution
 If you feel you can help us to improve this project, do not hesitate to submit an issue or just simply submit your pull request.
 
----
+
 ## License
 MIT License
 
