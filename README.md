@@ -64,7 +64,7 @@ Too long though?
 - You can use a Nodemon like library for Deno. It is called Denon. First you need to install it. [Denon](https://deno.land/x/denon).
 - After you install it, you can use this command.
 ```
-denon
+denon start
 ```
 - If you wanna look at the denon setup file, it is on `.denon` file.
 
