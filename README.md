@@ -8,6 +8,7 @@
 
 ![release](https://badgen.net/github/release/burhanahmeed/Denamo)
 ![tags](https://badgen.net/github/tags/burhanahmeed/Denamo)
+![attain](https://badgen.net/badge/Attain/v0.9/green)
 ![deno](https://badgen.net/badge/Deno/Latest/green)
 ![license](https://badgen.net/github/license/burhanahmeed/Denamo)
 ![stars](https://badgen.net/github/stars/burhanahmeed/Denamo)

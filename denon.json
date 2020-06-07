@@ -12,6 +12,18 @@
         "plugin"
       ],
       "unstable": true
+    },
+    "reload": {
+      "cmd": "deno run --reload main.ts",
+      "desc": "Run the main server.",
+      "allow": [
+        "env",
+        "write",
+        "read",
+        "net",
+        "plugin"
+      ],
+      "unstable": true
     }
   }
 }
