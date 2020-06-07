@@ -1,5 +1,3 @@
-# DENAMO - A Deno Web Boilerplate
-
 <div align='center'>
 
 [![denamo](/public/header.png)](.)
