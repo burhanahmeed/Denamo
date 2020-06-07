@@ -2,7 +2,7 @@
 
 <div align='center'>
 
-[![denamo](/public/header.jpg)](.)
+[![denamo](/public/header.png)](.)
 
 </div>
 
